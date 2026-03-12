@@ -1,0 +1,259 @@
+body {
+    background-color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner {
+    background: #8b3a2b;
+    color: white;
+    padding: 50px;
+    width: 1750px;
+    height: 60px;
+}
+
+.banner2 {
+    background: #8b3a2b;
+    color: white;
+    padding: 50px;
+    width: 950px;
+    height: 350px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Carrossel*/
+.carrossel {
+    width: 1850px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    animation: slide 5s infinite;
+}
+
+.slides img {
+    width: 1850px;
+    height: 450px;
+    object-fit: cover;
+}
+
+@keyframes slide {
+
+    0% {
+        margin-left: 0;
+    }
+
+    33% {
+        margin-left: 0;
+    }
+
+    40% {
+        margin-left: -100%;
+    }
+
+    66% {
+        margin-left: -100%;
+    }
+
+    73% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: -200%;
+    }
+
+}
+
+.primeira {
+    background: #8b3a2b;
+    color: white;
+    width: 1850px;
+    height: 50px;
+}
+
+.segunda {
+    width: 50%;
+    box-shadow: 0 15px 30px rgba(94, 54, 54, 0.08);
+    border-radius: 25px;
+}
+
+body {
+    background: #f3f0ec;
+    font-family: Arial, sans-serif;
+}
+
+/* área dos livros */
+
+.livros {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+
+/* card */
+
+.livro-card {
+    background: white;
+    padding: 25px;
+    width: 230px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+/* efeito ao passar mouse */
+
+.livro-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* imagem do livro */
+
+.livro-card img {
+    width: 170px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* título */
+
+.livro-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* status */
+
+.status {
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+.disponivel {
+    color: green;
+}
+
+.emprestado {
+    color: #b33;
+}
+
+/* botão */
+
+.btn {
+    background: #c96b47;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #b35835;
+}
+
+.produto-info {
+    flex: 1;
+}
+
+/*Botão de comprar*/
+.compra {
+    border-radius: 10px;
+    border: red;
+    background-color: red;
+    width: 100px;
+    height: 25px;
+}
+
+/*Caixa de texto */
+.caixa-texto {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #8B4513;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/*caixa colorida atrás dos icones*/
+.terceira {
+    width: 60%;
+    text-align: center;
+}
+
+.vermais {
+    color: blue;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.terceira td {
+    padding: 20px;
+}
+
+.terceira img {
+    background-color: rgb(238, 232, 232);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.terceira p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.quarta {
+    width: 60%;
+    text-align: center;
+}
+
+/* Parte Do Café Parceiros*/
+
+.titulo {
+    background: #8b3a2b;
+    color: white;
+    padding: 30px;
+    width: 1850px;
+    text-align: center;
+}
+
+.Lugares {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    height: 350px;
+    width: 1000px;
+    flex-wrap: wrap;
+
+}
+
+.lugares-card {
+    background: white;
+    width: 500px;
+    /* um pouco maior que a imagem */
+    height: 450px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 20px;
+    /* espaço interno para a imagem respirar */
+}
+

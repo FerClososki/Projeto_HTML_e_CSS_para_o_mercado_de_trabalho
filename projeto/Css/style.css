@@ -19,10 +19,15 @@ a {
 .banner2 {
     background: #8b3a2b;
     color: white;
-    padding: 50px;
-    width: 950px;
-    height: 350px;
+    padding: 20px;
+    width: 1850px;
+    height: 25px;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.top-bar2{
+    width: 30px;
+    height: 30px;
 }
 
 /* Carrossel*/
@@ -249,11 +254,24 @@ body {
 .lugares-card {
     background: white;
     width: 500px;
-    /* um pouco maior que a imagem */
     height: 450px;
     text-align: center;
     border-radius: 12px;
     padding: 20px;
-    /* espaço interno para a imagem respirar */
 }
 
+/*Minha Estante*/
+
+.livro{
+    height: 150px;
+    width: 95px;
+}
+
+.lugares-card2{
+    background: white;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 20px;
+}
